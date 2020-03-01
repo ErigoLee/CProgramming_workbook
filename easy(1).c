@@ -21,3 +21,11 @@ void func1(char *tmp)
     tmp++;
   }
 }
+/*
+compiler :  c programming
+exactly, translate
+C Programming -> c programming
+65<= n  <=90
+n is in a capital. (capital example-> A,B,C....)
+n + 32 is in a small letter, (small letter example-> a,b,c....)
+*/
