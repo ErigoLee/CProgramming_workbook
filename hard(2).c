@@ -32,3 +32,9 @@ void stringToken(char* sour, char sep) //함구구현
 			*dest++ = *sour++;
 	}
 }
+/*
+26~27 replace
+for(int i=0;i<size;i++)
+        tmp[i]='\0';
+
+*/
