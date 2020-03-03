@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -24,7 +25,8 @@ int main()
 	printf("\n");
 
 
-	ptr = NULL;
+	ptr = ptr - (i - 1);
 	free(ptr);
+	ptr = NULL;
 	return 0;
 }
