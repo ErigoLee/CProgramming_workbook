@@ -17,7 +17,8 @@ int main()
   strcat(ptr, "world.");
 
   printf("%d, %s \n",sizeof(ptr),ptr);
-
+  
+  ptr=NULL;
   free(ptr);
 
   return 0;
