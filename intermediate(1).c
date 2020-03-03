@@ -4,7 +4,6 @@
 int main()
 {
 	int* ptr, N, i;
-
 	printf("입력할 배열의 크기? ");
 	scanf("%d", &N);
 
@@ -30,7 +29,9 @@ int main()
 
 	printf("\n");
 
-	ptr = NULL;
+	ptr = ptr - i;
 	free(ptr);
+	ptr = NULL;
+
 	return 0;
 }
