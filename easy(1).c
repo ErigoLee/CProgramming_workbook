@@ -24,7 +24,7 @@ int main()
   
 }
 /*
-compiler
+output outcome
 4, Hello world
 or
 8, Hello world
