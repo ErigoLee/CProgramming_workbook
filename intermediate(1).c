@@ -15,7 +15,7 @@ int main()
 		scanf("%lf", &douData[i]);
 		sum += douData[i];
 	}
-  douData[numSZ] = sum / numSZ; //퍙균
+  	douData[numSZ] = sum / numSZ; //평균
 
 	for (i = 0; i < numSZ; i++)
 	{
