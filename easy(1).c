@@ -1,35 +1,34 @@
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
 int main()
 {
-  char *ptr;
+	char* ptr;
 
-  ptr = (char*)malloc(100);
-  if(ptr==NULL)
-  {
-    printf("메모리 할당 실패 !!! \n");
-    exit(1);
-  }
+	ptr = (char*)malloc(100);
+	if (ptr == NULL)
+	{
+		printf("메모리 할당 실패 !!! \n");
+		exit(1);
+	}
 
-  strcpy(ptr, "Hello ");
-  strcat(ptr, "world.");
+	strcpy(ptr, "Hello ");
+	strcat(ptr, "world.");
 
-  printf("%d, %s \n",sizeof(ptr),ptr);
-  
-  ptr=NULL;
-  free(ptr);
+	printf("%d, %s \n", sizeof(ptr), ptr);
+	free(ptr);
+	ptr = NULL;
 
-  return 0;
-  
+	return 0;
+
 }
 /*
 output outcome
 4, Hello world
 or
 8, Hello world
-
 4->32bit
 8->64bit
 */
